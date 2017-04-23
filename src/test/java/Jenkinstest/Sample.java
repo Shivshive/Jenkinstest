@@ -23,6 +23,8 @@ public class Sample {
 		driver2.manage().window().maximize();
 		driver2.get("https://www.youtube.com");
 		
+		System.out.println("Both the tests are executed fine..!");
+		
 	}
 
 }
